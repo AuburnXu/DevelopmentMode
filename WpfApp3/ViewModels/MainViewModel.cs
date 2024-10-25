@@ -114,8 +114,9 @@ namespace DevelopmentMode.ViewModels
 
         private void PerformCheckedEvent()
         {
-            if (IsChecked == true) ToggleButtonStata = "IsChecked";
-            else ToggleButtonStata = "UnChecked";
+            ToggleButtonStata = "IsChecked";
+            //if (IsChecked == true) ToggleButtonStata = "IsChecked";
+            //else ToggleButtonStata = "UnChecked";
             //DisplayMessage("CheckedEvent");
         }
 
